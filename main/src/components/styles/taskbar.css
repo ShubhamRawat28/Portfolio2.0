@@ -1,0 +1,79 @@
+.taskbar-container{
+    display: flex;
+    position: fixed;
+    margin-top: 94vh;
+    width: 100%;
+    height: 6vh;
+    justify-content: space-between;
+    background-color: #B8C2CB;
+    z-index: 5;
+}
+
+.centre-taskbar{
+    position: relative;
+    display: flex;
+    left: 40vw;
+    right: auto;
+    justify-content: space-between;
+}
+.centre-taskbar .icons{
+    height: 3.5vh;
+    width: 2vw;
+    margin: 0.4em;
+    transition: ease 0.3s;
+}
+.centre-taskbar .icons:active{
+    transform: scale(0.8);
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    border-radius: 0.3em;
+    margin: 0.2em 0.2em;
+    transition: ease 0.3s;
+}
+
+.icon-container:hover{
+    background-color: #E4EBF0;
+}
+.end-taskbar{
+    display: flex;
+
+}
+.end-taskbar.microsettings{
+    justify-content: space-between;  
+}
+.end-taskbar img{
+    height: 2em;
+    width: 1.5em;
+}
+
+.microsettings{
+    display: flex;
+    width: 7vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.microsettings:hover{
+    background-color: #E4EBF0;
+}
+.microsettings.icons{
+    height: 3vh;
+    width: 1.5vw;
+    padding: 0.5vh;
+}
+.language{
+    height: 6vh;
+    font-size: 10px;
+    width: 3vw;
+    align-items: center;
+}
+.language:hover{
+    background-color: #E4EBF0;
+}
+.end-taskbar .icon-container .container{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    padding: 0.4em;
+}
