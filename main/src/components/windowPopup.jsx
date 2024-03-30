@@ -78,7 +78,7 @@ const WindowPopup = ({ isOpen }) => {
 							<img src={vscode} alt="vscode" />
 							<p>VScode</p>
 						</div>
-						<div className="apps">
+					<div className="apps">
 							<img src={outlook} alt="outlook" />
 							<p>Outlook</p>
 						</div>
