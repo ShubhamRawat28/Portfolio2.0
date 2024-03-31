@@ -10,7 +10,7 @@ import wifi from "../assets/icons/wifi.svg";
 import search from "../assets/icons/search.svg";
 import audio from "../assets/icons/audio.svg";
 
-const Taskbar = ({renderPopUp}) => {
+const Taskbar = ({renderPopUp, isVsOpen}) => {
 	const [time, setTime] = useState(new Date().toLocaleTimeString());
 	const [date, setDate] = useState(new Date().toLocaleDateString());
 	const [language, setLanguage] = useState('ENG');
@@ -22,6 +22,7 @@ const Taskbar = ({renderPopUp}) => {
 			navigate('/');
 		}
 		else{
+			isVsOpen();
 			navigate('/vscode');
 		}
 	  };

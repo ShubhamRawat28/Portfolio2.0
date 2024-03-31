@@ -16,14 +16,14 @@ const LeftBar = () => {
 
   const WebList = () => (
     <div>
-      <a href="/">
+      <a href="https://github.com/ShubhamRawat28/ShubhamRawat28-Social-Media-Stress-prediction-using-BERT-tokenizer">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
             src={pythonIcon}
             alt="JS Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p>Social Media Stress prediction using BERT tokenizer</p>
+          <p>Social Media Stress prediction....</p>
         </div>
       </a>
       <a href="https://github.com/ShubhamRawat28/Children-Health-Tracker">

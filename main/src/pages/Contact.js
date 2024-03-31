@@ -23,6 +23,11 @@ const Contact = () => {
             <code>Contact</code>
           </a>
         </button>
+        <button className=" border border-lightblue_vs text-lightblue_vs mt-10 p-3 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">
+          <a href="mailto:shubhamrawat2892004@gmail.com">
+          <code><a href='../assets/ShubhamRawat.pfg' download='myResume'>Download Resume</a></code>
+          </a>
+        </button>
       </div>
     </div>
   );

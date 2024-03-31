@@ -7,7 +7,7 @@ const OnLoadAnimation = ({ text }) => {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
       opacity: 1,
-      transition: { staggerChildren: 0.12, delayChildren: 0.04 * i },
+      transition: { staggerChildren: 0.32, delayChildren: 0.14 * i },
     }),
   };
 
@@ -39,7 +39,7 @@ const OnLoadAnimation = ({ text }) => {
       initial="hidden"
       animate="visible"
     >
-       <p style={{ marginRight: "10px", width: '180px'}}>Hi...👋</p>
+       <p style={{ marginRight: "10px", width: '180px'}}>Hey👋,</p>
       {words.map((word, index) => (
         <motion.span
           variants={child}

@@ -109,50 +109,6 @@ const NavBar = ({ showPage, setShowPage }) => {
           />
         </Container>
       )}
-      {hidePage.includes("resume") ? null : showPage === "resume" ? (
-        <ActiveContainer
-          onClick={() => {
-            setShowPage("resume");
-          }}
-        >
-          <img
-            src={JSIcon}
-            alt="JS Icon"
-            className="w-7 mr-1  text-yellow_vs"
-          />
-          Resume.js
-          <XIcon
-            className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
-            onClick={(e) => {
-              e.stopPropagation();
-              setShowPage("home");
-              setHidePage(prevState=>[...prevState, "resume"]);
-            }}
-          />
-        </ActiveContainer>
-      ) : (
-        <Container
-          onClick={() => {
-            setShowPage("resume");
-          }}
-        >
-          <img
-            src={JSIcon}
-            alt="JS Icon"
-            className="w-7 mr-1  text-yellow_vs"
-          />
-          Resume.js
-          <XIcon
-            className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
-            onClick={(e) => {
-              e.stopPropagation();
-              setShowPage("home");
-              setHidePage(prevState=>[...prevState, "resume"]);
-              console.log(hidePage);
-            }}
-          />
-        </Container>
-      )}
       {hidePage.includes("contact") ? null : showPage === "contact" ? (
         <ActiveContainer
           onClick={() => {
