@@ -39,7 +39,7 @@ function App() {
         openNotification();
         setToggleVs(true);
       }
-    }, 15000);
+    }, 10000);
   
     return () => clearTimeout(notificationTimer);
   });
